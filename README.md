@@ -29,7 +29,7 @@ Director -< Movies -< Reviews
 To implement the `Director` class, we made the following changes to our code:
 
 1. Removed `director` and `female_director` as attributes in our movie migration
-   file; added a `director_id` attribute
+   file; add a `director_id` attribute
 2. Added a new migration for our `director` model with three attributes: `name`,
    `birthplace` and `female_director`
 3. Added the `belongs_to :director` macro to the `Movie` model and the
